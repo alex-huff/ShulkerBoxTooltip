@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 
 @Environment(EnvType.CLIENT)
 public class VanillaPreviewRenderer extends BasePreviewRenderer {
-  public static final ResourceLocation DEFAULT_TEXTURE = new ResourceLocation("container/bundle/background");
+  public static final ResourceLocation DEFAULT_TEXTURE = ResourceLocation.withDefaultNamespace("container/bundle/background");
   public static final VanillaPreviewRenderer INSTANCE = new VanillaPreviewRenderer();
 
   VanillaPreviewRenderer() {

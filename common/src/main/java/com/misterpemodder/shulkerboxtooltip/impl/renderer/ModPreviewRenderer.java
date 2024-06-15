@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 
 @Environment(EnvType.CLIENT)
 public class ModPreviewRenderer extends BasePreviewRenderer {
-  private static final ResourceLocation DEFAULT_TEXTURE_LIGHT = new ResourceLocation("shulkerboxtooltip",
+  private static final ResourceLocation DEFAULT_TEXTURE_LIGHT = ResourceLocation.fromNamespaceAndPath("shulkerboxtooltip",
       "textures/gui/shulker_box_tooltip.png");
   public static final ModPreviewRenderer INSTANCE = new ModPreviewRenderer();
 
